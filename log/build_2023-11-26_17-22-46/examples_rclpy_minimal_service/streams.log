@@ -1,0 +1,44 @@
+[0.462s] Invoking command in '/home/clem/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/clem/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build
+[0.613s] running develop
+[0.613s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.614s]   warnings.warn(
+[0.614s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.614s]   warnings.warn(
+[0.701s] Removing /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[0.720s] Invoked command in '/home/clem/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/clem/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build
+[0.720s] Invoking command in '/home/clem/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/clem/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/clem/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[0.868s] running egg_info
+[0.868s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[0.868s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[0.869s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[0.869s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[0.869s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[0.870s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.870s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.870s] running build
+[0.870s] running build_py
+[0.870s] creating /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build
+[0.871s] creating /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[0.871s] creating /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.871s] copying examples_rclpy_minimal_service/service.py -> /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.871s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.871s] copying examples_rclpy_minimal_service/__init__.py -> /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.871s] running install
+[0.871s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.871s]   warnings.warn(
+[0.871s] running install_lib
+[0.871s] creating /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.871s] copying /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.871s] copying /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.871s] copying /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.871s] byte-compiling /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[0.872s] byte-compiling /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[0.872s] byte-compiling /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[0.872s] running install_data
+[0.872s] running install_egg_info
+[0.873s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info
+[0.878s] running install_scripts
+[0.892s] Installing service script to /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.893s] Installing service_member_function script to /home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.893s] writing list of installed files to '/home/clem/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[0.907s] Invoked command in '/home/clem/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/clem/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/clem/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/clem/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/clem/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

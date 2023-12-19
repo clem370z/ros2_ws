@@ -1,0 +1,7 @@
+{
+  "package_name": "interface_acquisition",
+  "non_idl_tuples": [
+    "/home/clem/ros2_ws/src/interface_acquisition:msg/Num.msg",
+    "/home/clem/ros2_ws/src/interface_acquisition:srv/CreationFichierPly.srv"
+  ]
+}

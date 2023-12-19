@@ -1,0 +1,87 @@
+[0.032s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/clem/ros2_ws/install/launch_testing_examples:/home/clem/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/clem/ros2_ws/install/examples_rclpy_minimal_service:/home/clem/ros2_ws/install/examples_rclpy_minimal_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_client:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_server:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_client:/home/clem/ros2_ws/install/examples_rclpy_guard_conditions:/home/clem/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/examples_rclcpp_wait_set
+[0.040s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.143s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.158s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.159s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.162s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.269s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.296s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.297s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.514s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.562s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.562s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.562s] -- Configured cppcheck include dirs: /home/clem/ros2_ws/src/examples/rclcpp/wait_set/include
+[0.563s] -- Configured cppcheck exclude dirs and/or files: 
+[0.563s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.563s] -- Configured cpplint exclude dirs and/or files: 
+[0.563s] -- Added test 'lint_cmake' to check CMake code style
+[0.564s] -- Added test 'uncrustify' to check C / C++ code style
+[0.564s] -- Configured uncrustify additional arguments: 
+[0.564s] -- Added test 'xmllint' to check XML markup files
+[0.564s] -- Configuring done
+[0.587s] -- Generating done
+[0.588s] -- Build files have been written to: /home/clem/ros2_ws/build/examples_rclcpp_wait_set
+[0.658s] Invoked command in '/home/clem/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/clem/ros2_ws/install/launch_testing_examples:/home/clem/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/clem/ros2_ws/install/examples_rclpy_minimal_service:/home/clem/ros2_ws/install/examples_rclpy_minimal_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_client:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_server:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_client:/home/clem/ros2_ws/install/examples_rclpy_guard_conditions:/home/clem/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/examples_rclcpp_wait_set
+[0.660s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/clem/ros2_ws/install/launch_testing_examples:/home/clem/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/clem/ros2_ws/install/examples_rclpy_minimal_service:/home/clem/ros2_ws/install/examples_rclpy_minimal_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_client:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_server:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_client:/home/clem/ros2_ws/install/examples_rclpy_guard_conditions:/home/clem/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target wait_set_talker[0m
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_and_timer[0m
+[0.687s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target thread_safe_wait_set[0m
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set[0m
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target wait_set_listener[0m
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target wait_set[0m
+[0.689s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_with_different_rates[0m
+[0.689s] [35m[1mConsolidate compiler generated dependencies of target wait_set_random_order[0m
+[0.689s] [35m[1mConsolidate compiler generated dependencies of target executor_random_order[0m
+[0.696s] [ 16%] Built target listener
+[0.696s] [ 16%] Built target wait_set_topics_and_timer
+[0.697s] [ 25%] Built target wait_set_talker
+[0.701s] [ 33%] Built target talker
+[0.703s] [ 45%] Built target thread_safe_wait_set
+[0.703s] [ 50%] Built target wait_set_topics_with_different_rates
+[0.704s] [ 58%] Built target static_wait_set
+[0.706s] [ 83%] Built target wait_set
+[0.706s] [ 83%] Built target wait_set_random_order
+[0.706s] [ 83%] Built target wait_set_listener
+[0.706s] [ 91%] Built target executor_random_order
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target wait_set_composed[0m
+[0.718s] [100%] Built target wait_set_composed
+[0.725s] Invoked command in '/home/clem/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/clem/ros2_ws/install/launch_testing_examples:/home/clem/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/clem/ros2_ws/install/examples_rclpy_minimal_service:/home/clem/ros2_ws/install/examples_rclpy_minimal_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_client:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_server:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_client:/home/clem/ros2_ws/install/examples_rclpy_guard_conditions:/home/clem/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[0.762s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/clem/ros2_ws/install/launch_testing_examples:/home/clem/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/clem/ros2_ws/install/examples_rclpy_minimal_service:/home/clem/ros2_ws/install/examples_rclpy_minimal_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_client:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_server:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_client:/home/clem/ros2_ws/install/examples_rclpy_guard_conditions:/home/clem/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/clem/ros2_ws/build/examples_rclcpp_wait_set
+[0.767s] -- Install configuration: ""
+[0.767s] -- Execute custom install script
+[0.767s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[0.767s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[0.767s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[0.768s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[0.769s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[0.769s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[0.769s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[0.769s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[0.769s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[0.769s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[0.769s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[0.774s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[0.774s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[0.774s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[0.774s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[0.774s] -- Up-to-date symlink: /home/clem/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[0.776s] Invoked command in '/home/clem/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/clem/ros2_ws/install/launch_testing_examples:/home/clem/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/clem/ros2_ws/install/examples_rclpy_minimal_service:/home/clem/ros2_ws/install/examples_rclpy_minimal_publisher:/home/clem/ros2_ws/install/examples_rclpy_minimal_client:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_server:/home/clem/ros2_ws/install/examples_rclpy_minimal_action_client:/home/clem/ros2_ws/install/examples_rclpy_guard_conditions:/home/clem/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/clem/ros2_ws/build/examples_rclcpp_wait_set

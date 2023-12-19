@@ -1,0 +1,53 @@
+[0.063s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/examples_rclcpp_async_client
+[0.080s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.175s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.195s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.347s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.412s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.507s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.552s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.553s] -- Configured cppcheck include dirs: 
+[0.553s] -- Configured cppcheck exclude dirs and/or files: 
+[0.553s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.553s] -- Configured cpplint exclude dirs and/or files: 
+[0.553s] -- Added test 'lint_cmake' to check CMake code style
+[0.553s] -- Added test 'uncrustify' to check C / C++ code style
+[0.553s] -- Configured uncrustify additional arguments: 
+[0.553s] -- Added test 'xmllint' to check XML markup files
+[0.554s] -- Configuring done
+[0.563s] -- Generating done
+[0.564s] -- Build files have been written to: /home/clem/ros2_ws/build/examples_rclcpp_async_client
+[0.569s] Invoked command in '/home/clem/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/examples_rclcpp_async_client
+[0.570s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/examples_rclcpp_async_client -- -j16 -l16
+[0.599s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[3.458s] [100%] [32m[1mLinking CXX executable client_main[0m
+[3.637s] [100%] Built target client_main
+[3.648s] Invoked command in '/home/clem/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/examples_rclcpp_async_client -- -j16 -l16
+[3.679s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clem/ros2_ws/build/examples_rclcpp_async_client
+[3.685s] -- Install configuration: ""
+[3.686s] -- Execute custom install script
+[3.686s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[3.695s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[3.702s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[3.710s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[3.718s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[3.727s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[3.734s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[3.742s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[3.751s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[3.759s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[3.768s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[3.775s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[3.783s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[3.791s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[3.799s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[3.807s] -- Symlinking: /home/clem/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[3.818s] Invoked command in '/home/clem/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clem/ros2_ws/build/examples_rclcpp_async_client

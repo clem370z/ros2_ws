@@ -1,0 +1,266 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/clem/ros2_ws/build/interface_acquisition
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_interface_acquisition
+running egg_info
+writing interface_acquisition.egg-info/PKG-INFO
+writing dependency_links to interface_acquisition.egg-info/dependency_links.txt
+writing top-level names to interface_acquisition.egg-info/top_level.txt
+reading manifest file 'interface_acquisition.egg-info/SOURCES.txt'
+writing manifest file 'interface_acquisition.egg-info/SOURCES.txt'
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_generator_c[0m
+[  5%] Built target interface_acquisition__cpp
+[  7%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_c.dir/rosidl_generator_c/interface_acquisition/msg/detail/num__functions.c.o[0m
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] Built target ament_cmake_python_build_interface_acquisition_egg
+[ 17%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_c.dir/rosidl_generator_c/interface_acquisition/srv/detail/creation_fichier_ply__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libinterface_acquisition__rosidl_generator_c.so[0m
+[ 20%] Built target interface_acquisition__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_cpp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_acquisition/msg/num__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_acquisition/srv/creation_fichier_ply__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_introspection_cpp[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_acquisition/msg/detail/num__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_acquisition/srv/detail/creation_fichier_ply__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_fastrtps_c[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_acquisition/msg/detail/num__type_support_c.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_c[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_acquisition/srv/detail/creation_fichier_ply__type_support_c.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_acquisition/msg/num__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_acquisition/srv/creation_fichier_ply__type_support.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_c.so[0m
+[ 51%] Built target interface_acquisition__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_introspection_c[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_acquisition/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_acquisition/srv/detail/dds_fastrtps/creation_fichier_ply__type_support.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_cpp.so[0m
+[ 64%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_acquisition/srv/detail/creation_fichier_ply__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_acquisition/msg/detail/num__type_support.c.o[0m
+[ 64%] Built target interface_acquisition__rosidl_typesupport_cpp
+[ 66%] [32m[1mLinking C shared library libinterface_acquisition__rosidl_typesupport_introspection_c.so[0m
+[ 66%] Built target interface_acquisition__rosidl_typesupport_introspection_c
+[ 69%] [32m[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_introspection_cpp.so[0m
+[ 69%] Built target interface_acquisition__rosidl_typesupport_introspection_cpp
+[ 71%] [32m[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_fastrtps_c.so[0m
+[ 71%] Built target interface_acquisition__rosidl_typesupport_fastrtps_c
+[ 74%] [32m[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target interface_acquisition__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target interface_acquisition
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target interface_acquisition__py
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_generator_py[0m
+[ 79%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_py.dir/rosidl_generator_py/interface_acquisition/msg/_num_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_py.dir/rosidl_generator_py/interface_acquisition/srv/_creation_fichier_ply_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/interface_acquisition/libinterface_acquisition__rosidl_generator_py.so[0m
+[ 84%] Built target interface_acquisition__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_c__pyext[0m
+[ 92%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target interface_acquisition__rosidl_typesupport_introspection_c__pyext
+[100%] Built target interface_acquisition__rosidl_typesupport_c__pyext
+[100%] Built target interface_acquisition__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/rosidl_interfaces/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/creation_fichier_ply.h
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__struct.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__type_support.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__functions.c
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__functions.h
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__struct.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__type_support.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__functions.c
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__functions.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/num.h
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/library_path.sh
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/library_path.dsv
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_c.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_introspection_c.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__type_support.c
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__type_support.c
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_c.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__struct.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__builder.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__traits.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/creation_fichier_ply.hpp
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__traits.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__struct.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__builder.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/num.hpp
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/dds_fastrtps
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/dds_fastrtps
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__type_support.cpp
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__type_support.cpp
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/pythonpath.sh
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/pythonpath.dsv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/libinterface_acquisition__rosidl_generator_py.so
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/_creation_fichier_ply.py
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/__init__.py
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/_creation_fichier_ply_s.c
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/_num_s.c
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/__init__.py
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/_num.py
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/__init__.py
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_c.c
+Listing '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition'...
+Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/__init__.py'...
+Listing '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg'...
+Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/__init__.py'...
+Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/_num.py'...
+Listing '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv'...
+Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/__init__.py'...
+Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/_creation_fichier_ply.py'...
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_py.so
+-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/msg/Num.idl
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly.idl
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/msg/Num.msg
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly.srv
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly_Request.msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly_Response.msg
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/package_run_dependencies/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/parent_prefix_path/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/ament_prefix_path.sh
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/path.sh
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/path.dsv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.bash
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.sh
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.zsh
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.dsv
+-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/package.dsv
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/packages/interface_acquisition
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisitionConfig.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisitionConfig-version.cmake
+-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/package.xml

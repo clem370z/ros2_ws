@@ -1,0 +1,4 @@
+[console_scripts]
+client = py_acquisition.client_member_function:main
+service = py_acquisition.service_member_function:main
+

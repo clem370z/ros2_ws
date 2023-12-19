@@ -1,0 +1,4 @@
+[0.209s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[4.169s] [35m[1mConsolidate compiler generated dependencies of target timer_lambda[0m
+[4.169s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[4.169s] [ 75%] Built target timer_lambda

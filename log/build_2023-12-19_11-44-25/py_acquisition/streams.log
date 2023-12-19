@@ -1,0 +1,35 @@
+[0.414s] Invoking command in '/home/clem/ros2_ws/src/py_acquisition': AMENT_PREFIX_PATH=/home/clem/ros2_ws/install/interface_acquisition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/clem/ros2_ws/install/interface_acquisition LD_LIBRARY_PATH=/home/clem/ros2_ws/install/interface_acquisition/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/clem/ros2_ws/build/py_acquisition/prefix_override:/home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages:/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_acquisition build --build-base /home/clem/ros2_ws/build/py_acquisition/build install --record /home/clem/ros2_ws/build/py_acquisition/install.log --single-version-externally-managed
+[0.559s] running egg_info
+[0.559s] writing ../../build/py_acquisition/py_acquisition.egg-info/PKG-INFO
+[0.559s] writing dependency_links to ../../build/py_acquisition/py_acquisition.egg-info/dependency_links.txt
+[0.559s] writing entry points to ../../build/py_acquisition/py_acquisition.egg-info/entry_points.txt
+[0.559s] writing requirements to ../../build/py_acquisition/py_acquisition.egg-info/requires.txt
+[0.559s] writing top-level names to ../../build/py_acquisition/py_acquisition.egg-info/top_level.txt
+[0.561s] reading manifest file '../../build/py_acquisition/py_acquisition.egg-info/SOURCES.txt'
+[0.561s] writing manifest file '../../build/py_acquisition/py_acquisition.egg-info/SOURCES.txt'
+[0.561s] running build
+[0.561s] running build_py
+[0.561s] copying py_acquisition/service_member_function.py -> /home/clem/ros2_ws/build/py_acquisition/build/lib/py_acquisition
+[0.561s] copying py_acquisition/__init__.py -> /home/clem/ros2_ws/build/py_acquisition/build/lib/py_acquisition
+[0.561s] copying py_acquisition/client_member_function.py -> /home/clem/ros2_ws/build/py_acquisition/build/lib/py_acquisition
+[0.562s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.562s]   warnings.warn(
+[0.562s] running install
+[0.562s] running install_lib
+[0.562s] copying /home/clem/ros2_ws/build/py_acquisition/build/lib/py_acquisition/service_member_function.py -> /home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition
+[0.562s] copying /home/clem/ros2_ws/build/py_acquisition/build/lib/py_acquisition/__init__.py -> /home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition
+[0.562s] copying /home/clem/ros2_ws/build/py_acquisition/build/lib/py_acquisition/client_member_function.py -> /home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition
+[0.563s] byte-compiling /home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition/service_member_function.py to service_member_function.cpython-310.pyc
+[0.563s] byte-compiling /home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition/__init__.py to __init__.cpython-310.pyc
+[0.563s] byte-compiling /home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition/client_member_function.py to client_member_function.cpython-310.pyc
+[0.563s] running install_data
+[0.564s] copying resource/py_acquisition -> /home/clem/ros2_ws/install/py_acquisition/share/ament_index/resource_index/packages
+[0.564s] copying package.xml -> /home/clem/ros2_ws/install/py_acquisition/share/py_acquisition
+[0.564s] running install_egg_info
+[0.565s] removing '/home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition-0.0.0-py3.10.egg-info' (and everything under it)
+[0.565s] Copying ../../build/py_acquisition/py_acquisition.egg-info to /home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages/py_acquisition-0.0.0-py3.10.egg-info
+[0.565s] running install_scripts
+[0.579s] Installing client script to /home/clem/ros2_ws/install/py_acquisition/lib/py_acquisition
+[0.579s] Installing service script to /home/clem/ros2_ws/install/py_acquisition/lib/py_acquisition
+[0.579s] writing list of installed files to '/home/clem/ros2_ws/build/py_acquisition/install.log'
+[0.593s] Invoked command in '/home/clem/ros2_ws/src/py_acquisition' returned '0': AMENT_PREFIX_PATH=/home/clem/ros2_ws/install/interface_acquisition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/clem/ros2_ws/install/interface_acquisition LD_LIBRARY_PATH=/home/clem/ros2_ws/install/interface_acquisition/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/clem/ros2_ws/build/py_acquisition/prefix_override:/home/clem/ros2_ws/install/py_acquisition/lib/python3.10/site-packages:/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_acquisition build --build-base /home/clem/ros2_ws/build/py_acquisition/build install --record /home/clem/ros2_ws/build/py_acquisition/install.log --single-version-externally-managed

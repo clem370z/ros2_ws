@@ -1,0 +1,10 @@
+setup.py
+interface_acquisition/__init__.py
+interface_acquisition.egg-info/PKG-INFO
+interface_acquisition.egg-info/SOURCES.txt
+interface_acquisition.egg-info/dependency_links.txt
+interface_acquisition.egg-info/top_level.txt
+interface_acquisition/msg/__init__.py
+interface_acquisition/msg/_num.py
+interface_acquisition/srv/__init__.py
+interface_acquisition/srv/_creation_fichier_ply.py

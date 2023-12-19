@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface_acquisition/srv/CreationFichierPly.srv
+// generated code does not contain a copyright notice
+
+
+module interface_acquisition {
+  module srv {
+    struct CreationFichierPly_Request {
+      int64 a;
+    };
+    struct CreationFichierPly_Response {
+      int64 sum;
+    };
+  };
+};

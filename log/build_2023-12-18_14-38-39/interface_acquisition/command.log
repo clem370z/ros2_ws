@@ -1,0 +1,2 @@
+Invoking command in '/home/clem/ros2_ws/build/interface_acquisition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/interface_acquisition -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/interface_acquisition
+Invoked command in '/home/clem/ros2_ws/build/interface_acquisition' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/interface_acquisition -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/interface_acquisition

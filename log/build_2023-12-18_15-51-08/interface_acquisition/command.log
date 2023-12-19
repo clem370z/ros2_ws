@@ -1,0 +1,4 @@
+Invoking command in '/home/clem/ros2_ws/build/interface_acquisition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/interface_acquisition -- -j16 -l16
+Invoked command in '/home/clem/ros2_ws/build/interface_acquisition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/interface_acquisition -- -j16 -l16
+Invoking command in '/home/clem/ros2_ws/build/interface_acquisition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clem/ros2_ws/build/interface_acquisition
+Invoked command in '/home/clem/ros2_ws/build/interface_acquisition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/clem/ros2_ws/build/interface_acquisition

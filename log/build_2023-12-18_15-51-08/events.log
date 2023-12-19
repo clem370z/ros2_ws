@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000111] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000120] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000128] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000156] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000165] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000172] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000180] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000187] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000195] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000203] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000210] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000217] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000225] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000232] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000240] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000247] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000255] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000262] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000272] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000279] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000287] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000295] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000303] (-) JobUnselected: {'identifier': 'py_acquisition'}
+[0.000310] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000320] (interface_acquisition) JobQueued: {'identifier': 'interface_acquisition', 'dependencies': OrderedDict()}
+[0.000330] (interface_acquisition) JobStarted: {'identifier': 'interface_acquisition'}
+[0.023559] (interface_acquisition) JobProgress: {'identifier': 'interface_acquisition', 'progress': 'cmake'}
+[0.024213] (interface_acquisition) JobProgress: {'identifier': 'interface_acquisition', 'progress': 'build'}
+[0.024246] (interface_acquisition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/clem/ros2_ws/build/interface_acquisition', '--', '-j16', '-l16'], 'cwd': '/home/clem/ros2_ws/build/interface_acquisition', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'clem'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/clem'), ('OLDPWD', '/home/clem/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'clem'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'clem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/clem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/clem-16Z90Q-G-AA79F:@/tmp/.ICE-unix/1772,unix/clem-16Z90Q-G-AA79F:/tmp/.ICE-unix/1772'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ec6c0ff_cbaa_446b_8071_a02a5249a918'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K6AAG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/clem/ros2_ws/build/interface_acquisition'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.056634] (interface_acquisition) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099473] (-) TimerEvent: {}
+[0.153231] (interface_acquisition) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.192346] (interface_acquisition) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.193185] (interface_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.194700] (interface_acquisition) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199575] (-) TimerEvent: {}
+[0.211161] (interface_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299789] (-) TimerEvent: {}
+[0.336613] (interface_acquisition) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.399967] (-) TimerEvent: {}
+[0.444053] (interface_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500201] (-) TimerEvent: {}
+[0.587936] (interface_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600433] (-) TimerEvent: {}
+[0.600710] (interface_acquisition) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.613668] (interface_acquisition) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.613860] (interface_acquisition) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.613924] (interface_acquisition) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.622943] (interface_acquisition) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.623195] (interface_acquisition) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.623286] (interface_acquisition) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.623903] (interface_acquisition) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.624649] (interface_acquisition) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.625064] (interface_acquisition) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.627457] (interface_acquisition) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.627580] (interface_acquisition) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.628011] (interface_acquisition) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.629693] (interface_acquisition) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.645149] (interface_acquisition) StdoutLine: {'line': b'-- Generating done\n'}
+[0.646526] (interface_acquisition) StdoutLine: {'line': b'-- Build files have been written to: /home/clem/ros2_ws/build/interface_acquisition\n'}
+[0.661429] (interface_acquisition) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.666994] (interface_acquisition) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.673477] (interface_acquisition) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_interface_acquisition\n'}
+[0.700654] (-) TimerEvent: {}
+[0.801064] (-) TimerEvent: {}
+[0.861134] (interface_acquisition) StdoutLine: {'line': b'running egg_info\n'}
+[0.862215] (interface_acquisition) StdoutLine: {'line': b'writing interface_acquisition.egg-info/PKG-INFO\n'}
+[0.862423] (interface_acquisition) StdoutLine: {'line': b'writing dependency_links to interface_acquisition.egg-info/dependency_links.txt\n'}
+[0.862551] (interface_acquisition) StdoutLine: {'line': b'writing top-level names to interface_acquisition.egg-info/top_level.txt\n'}
+[0.864494] (interface_acquisition) StdoutLine: {'line': b"reading manifest file 'interface_acquisition.egg-info/SOURCES.txt'\n"}
+[0.864880] (interface_acquisition) StdoutLine: {'line': b"writing manifest file 'interface_acquisition.egg-info/SOURCES.txt'\n"}
+[0.868213] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_generator_c\x1b[0m\n'}
+[0.873435] (interface_acquisition) StdoutLine: {'line': b'[  5%] Built target interface_acquisition__cpp\n'}
+[0.875834] (interface_acquisition) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_c.dir/rosidl_generator_c/interface_acquisition/msg/detail/num__functions.c.o\x1b[0m\n'}
+[0.879852] (interface_acquisition) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.881181] (interface_acquisition) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.881334] (interface_acquisition) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.884678] (interface_acquisition) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_interface_acquisition_egg\n'}
+[0.885069] (interface_acquisition) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_c.dir/rosidl_generator_c/interface_acquisition/srv/detail/creation_fichier_ply__functions.c.o\x1b[0m\n'}
+[0.901147] (-) TimerEvent: {}
+[0.922717] (interface_acquisition) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterface_acquisition__rosidl_generator_c.so\x1b[0m\n'}
+[0.948057] (interface_acquisition) StdoutLine: {'line': b'[ 20%] Built target interface_acquisition__rosidl_generator_c\n'}
+[0.954496] (interface_acquisition) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.957479] (interface_acquisition) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.957675] (interface_acquisition) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.001275] (-) TimerEvent: {}
+[1.061333] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.071873] (interface_acquisition) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_acquisition/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.074444] (interface_acquisition) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_acquisition/srv/creation_fichier_ply__type_support.cpp.o\x1b[0m\n'}
+[1.082453] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.095867] (interface_acquisition) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_acquisition/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[1.096915] (interface_acquisition) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_acquisition/srv/detail/creation_fichier_ply__type_support.cpp.o\x1b[0m\n'}
+[1.101391] (-) TimerEvent: {}
+[1.160892] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.172655] (interface_acquisition) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_acquisition/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[1.172924] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_c\x1b[0m\n'}
+[1.174363] (interface_acquisition) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_acquisition/srv/detail/creation_fichier_ply__type_support_c.cpp.o\x1b[0m\n'}
+[1.180370] (interface_acquisition) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_acquisition/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.183054] (interface_acquisition) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_acquisition/srv/creation_fichier_ply__type_support.cpp.o\x1b[0m\n'}
+[1.203178] (-) TimerEvent: {}
+[1.217117] (interface_acquisition) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.260350] (interface_acquisition) StdoutLine: {'line': b'[ 51%] Built target interface_acquisition__rosidl_typesupport_c\n'}
+[1.260750] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.273917] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.274365] (interface_acquisition) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_acquisition/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[1.275633] (interface_acquisition) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_acquisition/srv/detail/dds_fastrtps/creation_fichier_ply__type_support.cpp.o\x1b[0m\n'}
+[1.279573] (interface_acquisition) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.285616] (interface_acquisition) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_acquisition/srv/detail/creation_fichier_ply__type_support.c.o\x1b[0m\n'}
+[1.285822] (interface_acquisition) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_acquisition/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[1.302795] (-) TimerEvent: {}
+[1.309599] (interface_acquisition) StdoutLine: {'line': b'[ 64%] Built target interface_acquisition__rosidl_typesupport_cpp\n'}
+[1.324324] (interface_acquisition) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libinterface_acquisition__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.349330] (interface_acquisition) StdoutLine: {'line': b'[ 66%] Built target interface_acquisition__rosidl_typesupport_introspection_c\n'}
+[1.402937] (-) TimerEvent: {}
+[1.470455] (interface_acquisition) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.503074] (-) TimerEvent: {}
+[1.516415] (interface_acquisition) StdoutLine: {'line': b'[ 69%] Built target interface_acquisition__rosidl_typesupport_introspection_cpp\n'}
+[1.531552] (interface_acquisition) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.591963] (interface_acquisition) StdoutLine: {'line': b'[ 71%] Built target interface_acquisition__rosidl_typesupport_fastrtps_c\n'}
+[1.602826] (interface_acquisition) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_acquisition__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.603122] (-) TimerEvent: {}
+[1.645749] (interface_acquisition) StdoutLine: {'line': b'[ 74%] Built target interface_acquisition__rosidl_typesupport_fastrtps_cpp\n'}
+[1.656562] (interface_acquisition) StdoutLine: {'line': b'[ 74%] Built target interface_acquisition\n'}
+[1.667938] (interface_acquisition) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.703238] (-) TimerEvent: {}
+[1.803581] (-) TimerEvent: {}
+[1.903897] (-) TimerEvent: {}
+[1.938419] (interface_acquisition) StdoutLine: {'line': b'[ 76%] Built target interface_acquisition__py\n'}
+[1.944322] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_generator_py\x1b[0m\n'}
+[1.951924] (interface_acquisition) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_py.dir/rosidl_generator_py/interface_acquisition/msg/_num_s.c.o\x1b[0m\n'}
+[1.952042] (interface_acquisition) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_generator_py.dir/rosidl_generator_py/interface_acquisition/srv/_creation_fichier_ply_s.c.o\x1b[0m\n'}
+[2.003986] (-) TimerEvent: {}
+[2.012201] (interface_acquisition) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_acquisition/libinterface_acquisition__rosidl_generator_py.so\x1b[0m\n'}
+[2.034302] (interface_acquisition) StdoutLine: {'line': b'[ 84%] Built target interface_acquisition__rosidl_generator_py\n'}
+[2.040440] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.040582] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.040653] (interface_acquisition) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface_acquisition__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.048744] (interface_acquisition) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.048882] (interface_acquisition) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.048923] (interface_acquisition) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interface_acquisition__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.104121] (-) TimerEvent: {}
+[2.114156] (interface_acquisition) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.114570] (interface_acquisition) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.115481] (interface_acquisition) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.135276] (interface_acquisition) StdoutLine: {'line': b'[100%] Built target interface_acquisition__rosidl_typesupport_introspection_c__pyext\n'}
+[2.135457] (interface_acquisition) StdoutLine: {'line': b'[100%] Built target interface_acquisition__rosidl_typesupport_c__pyext\n'}
+[2.142549] (interface_acquisition) StdoutLine: {'line': b'[100%] Built target interface_acquisition__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.151188] (interface_acquisition) CommandEnded: {'returncode': 0}
+[2.204207] (-) TimerEvent: {}
+[2.210443] (interface_acquisition) JobProgress: {'identifier': 'interface_acquisition', 'progress': 'install'}
+[2.216933] (interface_acquisition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/clem/ros2_ws/build/interface_acquisition'], 'cwd': '/home/clem/ros2_ws/build/interface_acquisition', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'clem'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/clem'), ('OLDPWD', '/home/clem/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '1966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'clem'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'clem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/clem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/clem-16Z90Q-G-AA79F:@/tmp/.ICE-unix/1772,unix/clem-16Z90Q-G-AA79F:/tmp/.ICE-unix/1772'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2ec6c0ff_cbaa_446b_8071_a02a5249a918'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K6AAG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/clem/ros2_ws/build/interface_acquisition'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.221228] (interface_acquisition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.221320] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/rosidl_interfaces/interface_acquisition\n'}
+[2.221366] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition\n'}
+[2.221400] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv\n'}
+[2.221431] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/creation_fichier_ply.h\n'}
+[2.221502] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail\n'}
+[2.221534] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__struct.h\n'}
+[2.221567] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__type_support.h\n'}
+[2.221598] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__functions.c\n'}
+[2.221627] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__functions.h\n'}
+[2.221670] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg\n'}
+[2.221732] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.221764] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail\n'}
+[2.221793] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__struct.h\n'}
+[2.221823] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__type_support.h\n'}
+[2.221850] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__functions.c\n'}
+[2.221903] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__functions.h\n'}
+[2.221934] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/num.h\n'}
+[2.221963] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/library_path.sh\n'}
+[2.222006] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/library_path.dsv\n'}
+[2.222050] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_c.so\n'}
+[2.222145] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_c.so" to ""\n'}
+[2.222195] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition\n'}
+[2.222254] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv\n'}
+[2.222289] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail\n'}
+[2.222319] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_fastrtps_c.h\n'}
+[2.222349] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg\n'}
+[2.222393] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.222445] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail\n'}
+[2.222473] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[2.222502] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_c.so\n'}
+[2.222549] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.222608] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition\n'}
+[2.222637] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv\n'}
+[2.222690] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail\n'}
+[2.222721] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_introspection_c.h\n'}
+[2.222754] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__type_support.c\n'}
+[2.222796] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg\n'}
+[2.222827] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail\n'}
+[2.222859] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[2.222907] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__type_support.c\n'}
+[2.222962] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.222991] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_c.so\n'}
+[2.223019] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.223062] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_c.so\n'}
+[2.223122] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_c.so" to ""\n'}
+[2.223180] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition\n'}
+[2.223210] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv\n'}
+[2.223239] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail\n'}
+[2.223283] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__struct.hpp\n'}
+[2.223345] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__builder.hpp\n'}
+[2.223376] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__traits.hpp\n'}
+[2.223405] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/creation_fichier_ply.hpp\n'}
+[2.223433] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg\n'}
+[2.223476] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail\n'}
+[2.223536] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__traits.hpp\n'}
+[2.223570] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__struct.hpp\n'}
+[2.223599] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__builder.hpp\n'}
+[2.223628] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/num.hpp\n'}
+[2.223660] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition\n'}
+[2.223702] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv\n'}
+[2.223757] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail\n'}
+[2.223786] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/dds_fastrtps\n'}
+[2.223825] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.223851] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg\n'}
+[2.223878] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.223909] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail\n'}
+[2.223940] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/dds_fastrtps\n'}
+[2.223969] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.223998] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.224041] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.224108] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition\n'}
+[2.224135] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv\n'}
+[2.224161] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail\n'}
+[2.224189] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.224232] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/srv/detail/creation_fichier_ply__type_support.cpp\n'}
+[2.224258] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg\n'}
+[2.224283] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail\n'}
+[2.224311] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.224339] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/include/interface_acquisition/interface_acquisition/msg/detail/num__type_support.cpp\n'}
+[2.224369] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_cpp.so\n'}
+[2.224412] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.224456] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_cpp.so\n'}
+[2.224500] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_typesupport_cpp.so" to ""\n'}
+[2.224544] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/pythonpath.sh\n'}
+[2.224606] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/pythonpath.dsv\n'}
+[2.224635] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info\n'}
+[2.224664] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.224693] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.224743] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.224774] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.224804] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition\n'}
+[2.224846] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/libinterface_acquisition__rosidl_generator_py.so\n'}
+[2.224893] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.224939] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.224986] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.225043] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv\n'}
+[2.225074] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/_creation_fichier_ply.py\n'}
+[2.225107] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/__init__.py\n'}
+[2.225150] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/_creation_fichier_ply_s.c\n'}
+[2.225208] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg\n'}
+[2.225239] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/_num_s.c\n'}
+[2.225282] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/__init__.py\n'}
+[2.225329] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/_num.py\n'}
+[2.225356] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.225385] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/__init__.py\n'}
+[2.225413] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.225456] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/_interface_acquisition_s.ep.rosidl_typesupport_c.c\n'}
+[2.246671] (interface_acquisition) StdoutLine: {'line': b"Listing '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition'...\n"}
+[2.246793] (interface_acquisition) StdoutLine: {'line': b"Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/__init__.py'...\n"}
+[2.246831] (interface_acquisition) StdoutLine: {'line': b"Listing '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg'...\n"}
+[2.246862] (interface_acquisition) StdoutLine: {'line': b"Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/__init__.py'...\n"}
+[2.246892] (interface_acquisition) StdoutLine: {'line': b"Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/msg/_num.py'...\n"}
+[2.246920] (interface_acquisition) StdoutLine: {'line': b"Listing '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv'...\n"}
+[2.246952] (interface_acquisition) StdoutLine: {'line': b"Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/__init__.py'...\n"}
+[2.246980] (interface_acquisition) StdoutLine: {'line': b"Compiling '/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/srv/_creation_fichier_ply.py'...\n"}
+[2.249739] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.249910] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.249985] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.250144] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.250240] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.250358] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/local/lib/python3.10/dist-packages/interface_acquisition/interface_acquisition_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.250427] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_py.so\n'}
+[2.250492] (interface_acquisition) StdoutLine: {'line': b'-- Set runtime path of "/home/clem/ros2_ws/install/interface_acquisition/lib/libinterface_acquisition__rosidl_generator_py.so" to ""\n'}
+[2.250556] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/msg/Num.idl\n'}
+[2.250619] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly.idl\n'}
+[2.250699] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/msg/Num.msg\n'}
+[2.250824] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly.srv\n'}
+[2.251187] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly_Request.msg\n'}
+[2.251236] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/srv/CreationFichierPly_Response.msg\n'}
+[2.251326] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/package_run_dependencies/interface_acquisition\n'}
+[2.251359] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/parent_prefix_path/interface_acquisition\n'}
+[2.251390] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/ament_prefix_path.sh\n'}
+[2.251418] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/ament_prefix_path.dsv\n'}
+[2.251446] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/path.sh\n'}
+[2.251474] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/environment/path.dsv\n'}
+[2.251502] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.bash\n'}
+[2.251530] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.sh\n'}
+[2.251558] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.zsh\n'}
+[2.251584] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/local_setup.dsv\n'}
+[2.251611] (interface_acquisition) StdoutLine: {'line': b'-- Installing: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/package.dsv\n'}
+[2.251651] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/ament_index/resource_index/packages/interface_acquisition\n'}
+[2.251682] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_cExport.cmake\n'}
+[2.251714] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.251743] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.251771] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.251800] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.251828] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.251856] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cExport.cmake\n'}
+[2.251884] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.251911] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_cppExport.cmake\n'}
+[2.251938] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.251964] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.251991] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.252019] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.252045] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cppExport.cmake\n'}
+[2.252115] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisition__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.252145] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_pyExport.cmake\n'}
+[2.252173] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/export_interface_acquisition__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.252198] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/rosidl_cmake-extras.cmake\n'}
+[2.252224] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.252250] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.252275] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.252301] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.252325] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.252350] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.252377] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisitionConfig.cmake\n'}
+[2.252401] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/cmake/interface_acquisitionConfig-version.cmake\n'}
+[2.252426] (interface_acquisition) StdoutLine: {'line': b'-- Up-to-date: /home/clem/ros2_ws/install/interface_acquisition/share/interface_acquisition/package.xml\n'}
+[2.253100] (interface_acquisition) CommandEnded: {'returncode': 0}
+[2.304374] (-) TimerEvent: {}
+[2.367009] (interface_acquisition) JobEnded: {'identifier': 'interface_acquisition', 'rc': 0}
+[2.367415] (-) EventReactorShutdown: {}

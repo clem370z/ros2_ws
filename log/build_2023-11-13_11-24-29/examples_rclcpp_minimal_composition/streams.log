@@ -1,0 +1,3 @@
+[0.288s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[5.823s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[5.823s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m

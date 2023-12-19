@@ -1,0 +1,29 @@
+[0.181s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[1.189s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.189s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.189s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.189s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.190s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.190s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.190s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.190s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.190s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.190s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.190s] -- Configured cppcheck include dirs: 
+[1.190s] -- Configured cppcheck exclude dirs and/or files: 
+[1.190s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.190s] -- Configured cpplint exclude dirs and/or files: 
+[1.190s] -- Added test 'lint_cmake' to check CMake code style
+[1.190s] -- Added test 'uncrustify' to check C / C++ code style
+[1.190s] -- Configured uncrustify additional arguments: 
+[1.190s] -- Added test 'xmllint' to check XML markup files
+[1.190s] -- Configuring done
+[1.190s] -- Generating done
+[1.190s] -- Build files have been written to: /home/clem/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[1.206s] Invoked command in '/home/clem/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/clem/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/clem/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[1.207s] Invoking command in '/home/clem/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/clem/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j16 -l16
+[1.280s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m

@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/py_acquisition/py_acquisition.egg-info/PKG-INFO
+writing dependency_links to ../build/py_acquisition/py_acquisition.egg-info/dependency_links.txt
+writing entry points to ../build/py_acquisition/py_acquisition.egg-info/entry_points.txt
+writing requirements to ../build/py_acquisition/py_acquisition.egg-info/requires.txt
+writing top-level names to ../build/py_acquisition/py_acquisition.egg-info/top_level.txt
+reading manifest file '../build/py_acquisition/py_acquisition.egg-info/SOURCES.txt'
+writing manifest file '../build/py_acquisition/py_acquisition.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_acquisition/client_acquisition_function.py -> /home/clem/ros2_ws/src/build/py_acquisition/build/lib/py_acquisition
+copying py_acquisition/service_acquisition_function.py -> /home/clem/ros2_ws/src/build/py_acquisition/build/lib/py_acquisition
+running install
+running install_lib
+copying /home/clem/ros2_ws/src/build/py_acquisition/build/lib/py_acquisition/client_acquisition_function.py -> /home/clem/ros2_ws/src/install/py_acquisition/lib/python3.10/site-packages/py_acquisition
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+copying /home/clem/ros2_ws/src/build/py_acquisition/build/lib/py_acquisition/service_acquisition_function.py -> /home/clem/ros2_ws/src/install/py_acquisition/lib/python3.10/site-packages/py_acquisition
+byte-compiling /home/clem/ros2_ws/src/install/py_acquisition/lib/python3.10/site-packages/py_acquisition/client_acquisition_function.py to client_acquisition_function.cpython-310.pyc
+byte-compiling /home/clem/ros2_ws/src/install/py_acquisition/lib/python3.10/site-packages/py_acquisition/service_acquisition_function.py to service_acquisition_function.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/clem/ros2_ws/src/install/py_acquisition/lib/python3.10/site-packages/py_acquisition-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/py_acquisition/py_acquisition.egg-info to /home/clem/ros2_ws/src/install/py_acquisition/lib/python3.10/site-packages/py_acquisition-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/clem/ros2_ws/src/install/py_acquisition/lib/py_acquisition
+Installing service script to /home/clem/ros2_ws/src/install/py_acquisition/lib/py_acquisition
+writing list of installed files to '/home/clem/ros2_ws/src/build/py_acquisition/install.log'
